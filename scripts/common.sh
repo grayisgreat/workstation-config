@@ -19,9 +19,9 @@ set +e
   brew install ruby
   brew install kotlin
   brew install postgresql
-
-  #brew install --cask adobe-creative-cloud
-  #brew install --cask google-drive
+  brew install --cask microsoft-onenote
+  brew install --cask adobe-creative-cloud
+  brew install --cask google-drive
 
 
   #Docker

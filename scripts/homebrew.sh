@@ -5,4 +5,4 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew update
 sudo chown -Rf $(whoami) $(brew --prefix)/*
 brew cleanup
-brew instsall git
+brew install git
