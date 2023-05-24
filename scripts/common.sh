@@ -14,7 +14,7 @@ set +e
   brew install vim
   brew install tmux
   brew install tree
-
+  brew install --cask intellij-idea
   brew install python
   brew install ruby
   brew install kotlin
@@ -22,6 +22,7 @@ set +e
   brew install --cask microsoft-onenote
   brew install --cask adobe-creative-cloud
   brew install --cask google-drive
+  brew install --cask google-cloud-sdk
 
 
   #Docker
@@ -73,6 +74,8 @@ set +e
   npm install --global webpack
   npm install --global grunt-cli
   npm install --global gulp-cli
+  npm install --global @ionic/cli
+  npm install --global typescript
 
   #C
   brew install ccache
